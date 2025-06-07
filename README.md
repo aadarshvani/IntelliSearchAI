@@ -78,8 +78,9 @@ This project demonstrates:
 **Add New Models** (config.py):
 ```python
 AVAILABLE_MODELS = [
-    'your-new-model',
     'mixtral-8x7b-32768',
+    'llama3-8b-8192', 
+    'Gemma2-9b-it'
     # ... existing models
 ]
 ```
@@ -107,7 +108,6 @@ Built with modern development practices. Perfect for:
 - Job interviews  
 - Learning Langchain
 - Streamlit applications
-
 ---
 
-**Built by [Your Name]** | [LinkedIn](your-linkedin) | [GitHub](your-github)
+**Built by Aadarsh Vani** | [LinkedIn](https://www.linkedin.com/in/aadarsh-vani-a60a641a0/) | [GitHub](https://github.com/aadarshvani)
