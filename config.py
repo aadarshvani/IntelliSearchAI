@@ -8,11 +8,10 @@ APP_ICON = "🧠"
 
 # Models
 AVAILABLE_MODELS = [
-    'mixtral-8x7b-32768',
-    'llama3-8b-8192', 
-    'Gemma2-9b-it'
+    'Gemma2-9b-it',
+    'llama-3.3-70b-versatile',
 ]
-DEFAULT_MODEL = 'llama3-8b-8192'
+DEFAULT_MODEL = 'Gemma2-9b-it'
 
 # Tool Settings
 TOOL_CONFIG = {
@@ -24,8 +23,8 @@ TOOL_CONFIG = {
 # Agent Settings
 AGENT_CONFIG = {
     'temperature': 0.7,
-    'max_iterations': 3,
-    'context_messages': 6
+    'max_iterations': 5,
+    'context_messages': 10
 }
 
 # UI Settings
